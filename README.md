@@ -41,17 +41,17 @@ Crear y ejecutar un contenedor
 - Eliminar un contenedor (detenido)
 ```docker rm [nombre/id]```
 
--Eliminar un contenedor (forzar)
+- Eliminar un contenedor (forzar)
 ```docker rm -f [nombre/id]```
 
--Iniciar un contenedor 
+- Iniciar un contenedor 
 ```docker start [nombre/id]```
 
 - Borra todo lo que no se esta usando (NUKE)
 ```docker system prune```
 
 # Docker compose
--Levantar servicios definidos en el docker-compose.yml
+- Levantar servicios definidos en el docker-compose.yml
 ```docker compose up -d```
 
 - Detener servicios
